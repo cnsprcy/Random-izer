@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Random-izer</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="script.js"></script>
+</head>
+    
+<body>
+    <div class="main-container">
+        <div class="text-container">
+            <h1><span class="important-text">Random</span>-izer</h1>
+            <p>Not quite feeling inspired? Or are you looking to spice up your drawing book? Well de-funk your creative funk with this randomizer! <span class="important-text bold">Click on the button to get started!</span></p>
+        </div>
+        <button id="output-btn" type="button" onclick="generateRandom();"><img src="https://i.ibb.co/7nC6vxw/dices.png" alt="dice"></button>
+        <div class="output output-container-adj">
+            <div class="placeholder placeholder-adj">
+                <p>Adjective</p>
+            </div>
+            <p id="adjective"></p>
+        </div>
+        <div class="output output-container-obj">
+            <div class="placeholder placeholder-obj">
+                <p>Object</p>
+            </div>
+            <p id="object"></p>
+        </div>
+    </div>
+</body>
+</html>

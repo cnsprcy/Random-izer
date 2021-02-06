@@ -137,3 +137,14 @@ body {
     position: relative;
     top: -25px;
 }
+
+@media only screen and (max-width: 650px) {
+    .main-container { width: 95%; height: 600px; }
+    .text-container h1 { top: 25px; margin-bottom: 25px; }
+    .text-space { position: relative; line-height: 2em; }
+    #output-btn { width: 150px; height: 150px; top: -75px; }
+    #output-btn:active { width: 140px; height: 140px; margin-bottom: 10px; }
+    .output { width: 85%; }
+    .output-container-adj { margin-top: 25px; }
+    .placeholder { margin-left: -25px; }
+}

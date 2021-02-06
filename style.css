@@ -145,6 +145,6 @@ body {
     #output-btn { width: 150px; height: 150px; top: -75px; }
     #output-btn:active { width: 140px; height: 140px; margin-bottom: 10px; }
     .output { width: 85%; }
-    .output-container-adj { margin-top: 25px; }
+    .output-container-adj { margin-top: 50px; }
     .placeholder { margin-left: -25px; }
 }

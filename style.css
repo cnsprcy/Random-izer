@@ -139,7 +139,7 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
-    .main-container { width: 95%; height: 575px; }
+    .main-container { width: 95%; height: 575px; margin: 50px auto; }
     .text-container h1 { top: 25px; margin-bottom: 25px; }
     .text-space { position: relative; line-height: 2em; }
     #output-btn { width: 150px; height: 150px; top: -75px; }

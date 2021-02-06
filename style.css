@@ -64,6 +64,8 @@ body {
 
 #output-btn {
     background-color: #FFFF00;
+	background-position: center;
+  	transition: background 0.5s;
     border: none;
     border-radius: 50%;
     box-shadow: 0px 2px 10px #0000FF;
@@ -89,13 +91,13 @@ body {
 }
 
 #output-btn:hover {
-	background-color: #FFFF70;
+	background: #FFFF30 radial-gradient(circle, transparent 1%, #FFFF30 1%) center/15000%;
 }
 
 #output-btn:active {
-    width: 170px;
-    height: 170px;
-    margin-bottom: 5px;
+	background-color: #FFFF60;
+  	background-size: 100%;
+  	transition: background 0s;
 	outline: none;
 }
 
@@ -143,12 +145,11 @@ body {
 }
 
 @media only screen and (max-width: 650px) {
-    .main-container { width: 95%; height: 575px; margin: 50px auto; }
+    .main-container { width: 95%; height: 575px; margin: 75px auto; }
     .text-container h1 { top: 25px; margin-bottom: 25px; }
     .text-space { position: relative; line-height: 2em; }
     #output-btn { width: 150px; height: 150px; top: -75px; }
-    #output-btn:active { width: 140px; height: 140px; margin-bottom: 10px; }
     .output { width: 85%; }
-    .output-container-adj { margin-top: 50px; }
+    .output-container-adj { margin-top: 35px; }
     .placeholder { margin-left: -25px; }
 }
